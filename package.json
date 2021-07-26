@@ -1,0 +1,36 @@
+{
+	"name": "jscharting-vue-examples",
+	"version": "1.2.1",
+	"description": "Examples using the JSCharting plugin for Vue.js.",
+	"private": true,
+	"scripts": {
+		"start": "vue-cli-service serve",
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build"
+	},
+	"author": "JSCharting <support@jscharting.com> (https://jscharting.com/support.htm)",
+	"bugs": {
+		"email": "support@jscharting.com"
+	},
+	"license": "jscharting.com/store/",
+	"dependencies": {
+		"axios": "^0.21.1",
+		"core-js": "^3.8.3",
+		"jscharting-vue": "2.0.0-beta.2",
+		"vue": "^2.6.10",
+		"vue-select": "^3.11.2"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "^4.5.11",
+		"@vue/cli-service": "^4.5.11",
+		"copy-webpack-plugin": "^5.1.2",
+		"vue-template-compiler": "^2.6.12"
+	},
+	"peerDependencies": {
+		"vue": "^2.6.10"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions"
+	]
+}
